@@ -1,3 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: serif;
+    line-height: 150%;
+    color: #333333;
+}
+
+body {
+    background-color: #29292E;
+    background-size: cover;
+}
+
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: antiquewhite;
+    margin: 48px auto;
+}
+
+main {
+    padding: 16px;
+}
+
+
+
+
+/* img {
+    min-width: 100px;
+    max-width: 750px;
+
+} */
+
 #linha {
     width: 100%;
     border-bottom: 1px solid;
@@ -5,3 +42,12 @@
     margin-bottom: 20px;
 }
 
+
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
+}
