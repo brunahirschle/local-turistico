@@ -6,7 +6,7 @@
 :root {
     font-family: 'open sans', sans-serif;
     line-height: 150%;
-    color: #333333;
+    letter-spacing: 2;
 }
 
 body {
@@ -54,6 +54,7 @@ img {
 p {
     text-align: justify;
     margin-bottom: 16px;
+    color: #333333;
 }
 
 h4 {
@@ -77,8 +78,42 @@ h2 {
 
 h3 {
     font-size: 30px;
-    margin: 14px 24px;
-    
+    /*margin: 14px 36px;*/
+}
+
+li {
+    margin: 14px 36px;
+}
+
+#bold {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+li::marker  {
+    color: #333333;
+}
+
+ul {
+    color: #0C51A7;
+    font-weight: bold;
+    }
+
+.casais {
+    color:#591B98;
+}
+
+.famílias {
+    color: #E5245E;
+}
+
+.orçamento {
+    color: #E95E10;
+
+}
+
+#conclusão {
+    text-align: center;
 }
 
 footer {
