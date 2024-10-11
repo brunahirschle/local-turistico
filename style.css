@@ -4,7 +4,7 @@
 }
 
 :root {
-    font-family: serif;
+    font-family: 'open sans', sans-serif;
     line-height: 150%;
     color: #333333;
 }
@@ -16,9 +16,9 @@ body {
 
 #page {
     box-sizing: border-box;
-    width: 800px;
-    padding: 24px;
-    background-color: antiquewhite;
+    width: 1280px;
+    padding: 65px;
+    background-color: white;
     margin: 48px auto;
 }
 
@@ -29,19 +29,57 @@ main {
 
 
 
-/* img {
-    min-width: 100px;
-    max-width: 750px;
+img {
+    /* min-width: 100px;
+    max-width: 750px; */
+    margin-top: 48px;
+    margin-bottom: 20px;
 
-} */
+}
 
 #linha {
     width: 100%;
     border-bottom: 1px solid;
+    margin-top: 40px;
+    margin-bottom: 64px;
+}
+
+.subtitle {
+    color: #333333;
+    text-align: center;
+    font-style: italic;
+    margin-top: 16px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+h4 {
+    color: #E1624F;
+    text-transform: uppercase;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
     margin-top: 20px;
+}
+
+h2 {
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
+h3 {
+    font-size: 30px;
+    margin: 14px 24px;
+    
+}
 
 footer {
     text-align: center;
