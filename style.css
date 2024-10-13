@@ -37,14 +37,14 @@ img {
 
 }
 
-#linha {
+#linha-1, #linha-2 {
     width: 100%;
     border-bottom: 1px solid;
     margin-top: 40px;
     margin-bottom: 64px;
 }
 
-.subtitle {
+#subtitle {
     color: #333333;
     text-align: center;
     font-style: italic;
@@ -85,7 +85,7 @@ li {
     margin: 14px 36px;
 }
 
-#bold {
+.bold {
     font-weight: bold;
     font-size: 16px;
 }
@@ -99,15 +99,15 @@ ul {
     font-weight: bold;
     }
 
-.casais {
+#casais {
     color:#591B98;
 }
 
-.famílias {
+#famílias {
     color: #E5245E;
 }
 
-.orçamento {
+#orçamento {
     color: #E95E10;
 
 }
