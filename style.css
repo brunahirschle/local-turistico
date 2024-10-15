@@ -37,11 +37,11 @@ img {
 
 }
 
-#linha-1, #linha-2 {
+.divider {
     width: 100%;
-    border-bottom: 1px solid;
-    margin-top: 40px;
-    margin-bottom: 64px;
+    height: 1px;
+    margin: 36px 0;
+    background-color: #d9d9d9;
 }
 
 #subtitle {
